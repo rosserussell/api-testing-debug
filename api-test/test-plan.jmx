@@ -52,7 +52,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">OLD_IP</stringProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
           <stringProp name="HTTPSampler.port">8080</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -69,7 +69,7 @@
         <hashTree/>
         <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="response code" enabled="true">
           <collectionProp name="Asserion.test_strings">
-            <stringProp name="49586">200</stringProp>
+            <stringProp name="49587">201</stringProp>
           </collectionProp>
           <stringProp name="Assertion.custom_message"></stringProp>
           <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
@@ -79,7 +79,7 @@
         <hashTree/>
         <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="response text" enabled="true">
           <collectionProp name="Asserion.test_strings">
-            <stringProp name="-453081666">Your information was successfully saved in this file:  /var/lib/tomcat8/logs/import_server.txt</stringProp>
+            <stringProp name="-1160629657">Your information was successfully saved in this file:  /var/lib/tomcat8/logs/import_server.txte</stringProp>
           </collectionProp>
           <stringProp name="Assertion.custom_message"></stringProp>
           <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
